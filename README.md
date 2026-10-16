@@ -25,7 +25,7 @@ The full argument is in the written report.
 | `report/Extreme_Events_Final_Report.docx` | Same report in Word format |
 | `report/figures/` | The three figures used in the report, exported from the notebook |
 | `extreme_events_full.ipynb` | All code: data download and preparation, exploration, analysis and stress tests. It is saved with the outputs of the final run, so every result can be read without re-running. |
-| `presentation/` | Slides from the in-class mini-project presentation (see the note in that folder) |
+| `presentation/` | Slides from the in-class presentation, which covered an earlier version of the project (volatility forecasting in the April 2025 tariff shock); see the note in that folder |
 | `requirements.txt` | Python packages |
 | `.gitignore` | Keeps raw market data out of the repository (see *Data*) |
 
