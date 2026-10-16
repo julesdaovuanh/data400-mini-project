@@ -1,6 +1,6 @@
 # Extreme Events and Stock Market Behavior: Why Crashes Differ, 2000–2026
 
-DATA 400 individual mini-project · J (julesdaovuanh) · Dickinson College · Fall 2026
+DATA 400 individual mini-project · Jules Dao Vu Anh · Dickinson College · Fall 2026
 
 ## The project
 
