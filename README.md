@@ -6,13 +6,13 @@ DATA 400 individual mini-project · Jules Dao Vu Anh · Dickinson College · Fal
 
 **Research question.** How do different types of extreme events move the U.S. stock market, why do some crashes recover quickly while others take years, and what does this mean for protecting a portfolio?
 
-The project identifies 17 extreme episodes in the S&P 500 from 2000 to 2026 with rule-based volatility filters. Each crisis is classified by the economic channel through which it hit prices: growth and credit, rates and inflation, valuation unwind, or sudden event. The project then studies how stocks, Treasuries, gold, oil, sectors and five portfolios behaved, and stress-tests those portfolios against historical and hypothetical scenarios.
+The project identifies extreme days in the S&P 500 from 2000 to 2026 with volatility-adjusted rules and groups them into 17 crises (13 selected by rule, 4 added as documented contrast cases). Each crisis is classified by the economic channel through which it hit prices: growth and credit, rates and inflation, valuation unwind, or sudden event. The project then studies how stocks, Treasuries, gold, oil, sectors and five portfolios behaved, and stress-tests those portfolios against historical and hypothetical scenarios.
 
 **Main findings**
 
-- **Recovery time depends on the type of shock.** Sudden events recovered in a median of 10 trading days. Growth and credit crises took 77, rate and inflation shocks 115, and valuation unwinds about 900.
+- **Recovery time is associated with the type of shock.** Sudden events recovered in a median of 10 trading days, growth and credit crises in 77 and rate and inflation shocks in 115; the two valuation unwinds took 320 and 1,472 days. The ordering holds with or without the four contrast cases, but with 17 crises the result is exploratory.
 - **Treasuries hedged growth shocks but not inflation shocks.** They protected portfolios when growth collapsed and fell alongside stocks when inflation and rising rates caused the crash, as in 2022.
-- **Balanced portfolios were protected mostly by holding fewer stocks.** Very little of the protection came from hedging.
+- **Balanced portfolios were protected mostly by holding fewer stocks.** Bond gains provided a smaller share, and none in rate and inflation shocks.
 - **Knowing the shock type did not predict losses better than a generic crash scenario.**
 
 The full argument is in the written report.
@@ -103,14 +103,23 @@ Then choose *Kernel → Restart & Run All*. A full run takes several minutes, mo
 
 **Academic literature**
 
-- Baker, S. R., Bloom, N., Davis, S. J., & Sammon, M. C. (2021). *What triggers stock market jumps?* NBER Working Paper No. 28687.
+- Baker, S. R., Bloom, N., Davis, S. J., & Sammon, M. C. (2021). *What triggers stock market jumps?* (NBER Working Paper No. 28687). National Bureau of Economic Research.
+- Baur, D. G., & Lucey, B. M. (2010). Is gold a hedge or a safe haven? An analysis of stocks, bonds and gold. *The Financial Review*, 45(2), 217–229.
+- Bernanke, B. S., & Kuttner, K. N. (2005). What explains the stock market's reaction to Federal Reserve policy? *Journal of Finance*, 60(3), 1221–1257.
 - Bloom, N. (2009). The impact of uncertainty shocks. *Econometrica*, 77(3), 623–685.
+- Campbell, J. Y., Sunderam, A., & Viceira, L. M. (2017). Inflation bets or deflation hedges? The changing risks of nominal bonds. *Critical Finance Review*, 6(2), 263–301.
 - Campbell, J. Y., & Vuolteenaho, T. (2004). Bad beta, good beta. *American Economic Review*, 94(5), 1249–1275.
+- Cochrane, J. H. (2011). Presidential address: Discount rates. *Journal of Finance*, 66(4), 1047–1108.
+- Cutler, D. M., Poterba, J. M., & Summers, L. H. (1989). What moves stock prices? *Journal of Portfolio Management*, 15(3), 4–12.
 - Freedman, D., & Lane, D. (1983). A nonstochastic interpretation of reported significance levels. *Journal of Business & Economic Statistics*, 1(4), 292–298. (Residual permutation test used in Section 10b.)
+- Greenwood, R., Shleifer, A., & You, Y. (2019). Bubbles for Fama. *Journal of Financial Economics*, 131(1), 20–43.
 - J.P. Morgan/Reuters. (1996). *RiskMetrics—Technical document* (4th ed.). (EWMA volatility, λ = 0.94.)
 - Lee, S. S., & Mykland, P. A. (2008). Jumps in financial markets: A new nonparametric test and jump dynamics. *Review of Financial Studies*, 21(6), 2535–2563.
 - Longin, F. M. (1996). The asymptotic distribution of extreme stock market returns. *Journal of Business*, 69(3), 383–408.
 - Longin, F., & Solnik, B. (2001). Extreme correlation of international equity markets. *Journal of Finance*, 56(2), 649–676.
+- Mishkin, F. S., & White, E. N. (2002). *U.S. stock market crashes and their aftermath: Implications for monetary policy* (NBER Working Paper No. 8992). National Bureau of Economic Research.
+- Muir, T. (2017). Financial crises and risk premia. *Quarterly Journal of Economics*, 132(2), 765–809.
+- Reinhart, C. M., & Rogoff, K. S. (2009). The aftermath of financial crises. *American Economic Review*, 99(2), 466–472.
 
 **Data**
 
