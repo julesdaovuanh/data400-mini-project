@@ -1,0 +1,7 @@
+# Raw market data is downloaded by the notebook and not redistributed (see README, "Data")
+data/raw/
+# Python / Jupyter clutter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store
